@@ -43,7 +43,7 @@ function App() {
   const deleteField = (id) => {
     setEditing(false);
 
-    setFields(fields.filter((field) => field.id !== id));
+    setFields(fields.filter((field) => field._uid !== id));
   };
 
   const updateField = (id, updatedField) => {

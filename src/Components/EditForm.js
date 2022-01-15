@@ -49,7 +49,8 @@ const EditUserForm = (props) => {
       <div className="mb-5">
         <p>Type Option:</p>
         <select name="type" onChange={handleInputChange}>
-          <option selected value="Text">Text</option>
+          <option value="">none</option>
+          <option value="Text">Text</option>
           <option value="Email">Email</option>
           <option value="Number">Number</option>
         </select>
