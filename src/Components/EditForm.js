@@ -34,6 +34,7 @@ const EditUserForm = (props) => {
         />
       </div>
       <div className="mb-5">
+        <p>Component Option:</p>
         <div onChange={handleInputChange}>
           <input type="radio" name="component" value="text" />
           <label>Text</label>
@@ -46,6 +47,7 @@ const EditUserForm = (props) => {
         </div>
       </div>
       <div className="mb-5">
+        <p>Type Option:</p>
         <select name="type" onChange={handleInputChange}>
           <option value="Text">Text</option>
           <option value="Email">Email</option>
