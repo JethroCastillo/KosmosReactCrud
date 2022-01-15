@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/KosmosReactCrud/static/css/main.471e1b4f.css",
-    "main.js": "/KosmosReactCrud/static/js/main.e5a6b7dd.js",
+    "main.js": "/KosmosReactCrud/static/js/main.2767cd04.js",
     "index.html": "/KosmosReactCrud/index.html",
     "main.471e1b4f.css.map": "/KosmosReactCrud/static/css/main.471e1b4f.css.map",
-    "main.e5a6b7dd.js.map": "/KosmosReactCrud/static/js/main.e5a6b7dd.js.map"
+    "main.2767cd04.js.map": "/KosmosReactCrud/static/js/main.2767cd04.js.map"
   },
   "entrypoints": [
     "static/css/main.471e1b4f.css",
-    "static/js/main.e5a6b7dd.js"
+    "static/js/main.2767cd04.js"
   ]
 }
