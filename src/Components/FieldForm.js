@@ -33,26 +33,23 @@ const AddfieldForm = (props) => {
         />
       </div>
       <div className="mb-5">
-        <label>Component</label>
-        <br />
-        <input
-          className="rounded p-3 text-pink-500 bg-gray-200"
-          type="text"
-          name="component"
-          value={field.component}
-          onChange={handleInputChange}
-        />
+        <div onChange={handleInputChange}>
+          <input type="radio" name="component" value="text" />
+          <label>Text</label>
+          <br />
+          <input type="radio" name="component" value="model" />
+          <label>Model</label>
+          <br />
+          <input type="radio" name="component" value="other" />
+          <label>Other</label>
+        </div>
       </div>
       <div className="mb-5">
-        <label>Type</label>
-        <br />
-        <input
-          className="rounded p-3 text-pink-500 bg-gray-200"
-          type="text"
-          name="type"
-          value={field.type}
-          onChange={handleInputChange}
-        />
+        <select name="type" onChange={handleInputChange}>
+          <option value="Text">Text</option>
+          <option value="Email">Email</option>
+          <option value="Number">Number</option>
+        </select>
       </div>
 
       <button className="bg-green-600 w-full hover:bg-green-500 py-2 px-4 mt-5">
