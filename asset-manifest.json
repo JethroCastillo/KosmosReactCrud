@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KosmosReactCrud/static/css/main.471e1b4f.css",
+    "main.js": "/KosmosReactCrud/static/js/main.a8b240a2.js",
+    "index.html": "/KosmosReactCrud/index.html",
+    "main.471e1b4f.css.map": "/KosmosReactCrud/static/css/main.471e1b4f.css.map",
+    "main.a8b240a2.js.map": "/KosmosReactCrud/static/js/main.a8b240a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.471e1b4f.css",
+    "static/js/main.a8b240a2.js"
+  ]
+}
